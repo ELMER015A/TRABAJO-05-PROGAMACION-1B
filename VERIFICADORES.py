@@ -35,6 +35,7 @@ area=(radio*radio)*pi
 print(" radio es",radio)
 print(" pi es",pi)
 print("area es", area)
+
 # verificador
 formula=(area<231)
 print("Formula menor:",formula)
@@ -409,4 +410,338 @@ print("velocidad final es",velocidad_final)
 # verificador
 formula=(velocidad_inicial>=874)
 print(" formula de la velocidad inicial:", formula)
+
+
+nombre="JACK SUYON RIOJAS"
+print("ESTUDIANTE:", nombre)
+
+
+#verificador 1 :calcular el numero de masa
+numero_de_masa, numero_atomico, numero_de_neutrones=0.0, 0.0, 0.0
+#asignacion valores de valores
+numero_atomico=int(input("mostrar el numero atomico:"))
+numero_de_neutrones=int(input("mostrar el numerode neutrones:"))
+#calculo
+numero_de_masa=(numero_atomico + numero_de_neutrones)
+verificador=(numero_de_masa<=60)
+#mostrar valores
+print("numero atomico:",numero_atomico)
+print("numero de neutrones",numero_de_neutrones)
+print("numero de masa:",numero_de_masa)
+print("numero de masa<=60",verificador)
+
+
+#verificador 2 :calcular el numero de electrones
+numero_de_electrones, numero_de_protones, carga=0.0, 0.0, 0.0
+#asignacion de valores
+numero_de_protones=int(input("mostrar el numero de protones:"))
+carga=int(input("mostrar la carga:"))
+#calculo
+numero_de_electrones=(numero_de_protones + carga)
+verificador=(numero_de_electrones>47)
+#mostrar valores
+print("numero de protones:",numero_de_protones)
+print("carga",carga)
+print("numero de elctrones",numero_de_electrones)
+print("el numero de elctrones>47:",verificador)
+
+
+
+#verificador 3 : calcular la densidad
+densidad, masa, volumen=0.0, 0.0, 0.0
+#asignacion de valores
+masa=int(input("mostrar la mesa:"))
+volumen=int(input("mostrar el volumen:"))
+#calculo
+densidad=masa/volumen
+verificador=(densidad==45)
+#mostrar valores
+print("masa:",masa)
+print("volumen:",volumen)
+print("densidad:",densidad)
+print("densidad==45:",verificador)
+
+
+#verificador 4: calcular el area lateral de un cono
+area_lateral_cono, pi, radio, generatriz=0.0, 0.0, 0.0, 0.0
+#asignacion de valores
+pi=3.1416
+radio=int(input("mostrar el radio:"))
+generatriz=int(input("mostrar generatriz:"))
+#calculo
+area_lateral_cono=(pi*radio*generatriz)
+verificador=(area_lateral_cono<=65)
+#mostrar valores
+print("pi:",pi)
+print("radio:",radio)
+print("generatriz:",generatriz)
+print("area lateral del cono:",area_lateral_cono)
+print("area lateral del cono<=65:",verificador)
+
+
+#verificador 5: calcular el area total de la piramide
+area_total_piramide, area_lateral_piramide, area_base_piramide=0.0, 0.0, 0.0
+#asignacion de valores
+area_lateral_piramide=int(input("mostar el area lateral de la piramide:"))
+area_base_piramide=int(input("mostar el area de la base de la piramide:"))
+#calculo
+area_total_piramide= area_lateral_piramide + area_base_piramide
+verificador=(area_total_piramide!=62)
+#mostrar valores
+print("area lateral de la piramide:",area_lateral_piramide)
+print("area de la base de la piramide:",area_base_piramide)
+print("area total de la piramide",area_total_piramide)
+print("area total de la piramide=!62",verificador)
+
+
+#verificador 5: calcular el area total de la piramide
+area_total_piramide, area_lateral_piramide, area_base_piramide=0.0, 0.0, 0.0
+#asignacion de valores
+area_lateral_piramide=int(input("mostar el area lateral de la piramide:"))
+area_base_piramide=int(input("mostar el area de la base de la piramide:"))
+#calculo
+area_total_piramide= area_lateral_piramide + area_base_piramide
+verificador=(area_total_piramide!=62)
+#mostrar valores
+print("area lateral de la piramide:",area_lateral_piramide)
+print("area de la base de la piramide:",area_base_piramide)
+print("area total de la piramide",area_total_piramide)
+print("area total de la piramide=!62",verificador)
+
+
+#verificador 6: calcular el volumen de la piramide
+volumen_piramide, area_base_de_la_piramide, altura=0.0, 0.0, 0.0
+#asignacion de valores
+area_base_de_la_piramide=int(input("mostrar el area de la base:"))
+altura=int(input("mostrar la altura:"))
+#calculo
+volumen_piramide=(area_base_de_la_piramide*altura)/3
+verificador=(volumen_piramide>36)
+#mostrar valores
+print("area de la base de la piramide:",area_base_de_la_piramide)
+print("altura:",altura)
+print("volumen de la piramide:",volumen_piramide)
+print("volumen de la piramide>36",verificador)
+
+#verificador 7: clacular el area lateral del cilindro
+area_lateral_cilindro, pi, radio1, generatriz1=0.0, 0.0, 0.0, 0.0
+#asignacion de valores
+pi=3.1416
+radio1=int(input("mostrar el radio:"))
+generatriz1=int(input("mostrar la generatriz:"))
+#calculo
+area_lateral_cilindro=(2*pi*radio1*generatriz1)
+verificador=(area_lateral_cilindro>=29)
+#mortrar valores
+print("pi:",pi)
+print("radio1:",radio1)
+print("generatriz1:",generatriz1)
+print("area latera del cilindro:",area_lateral_cilindro)
+print("area lateral del cilindro>=29",verificador)
+
+
+#verificador 8: volumen de un prisma
+volumen_prisma, base_prisma, altura_prisma=0.0, 0.0, 0.0
+#asignacion de valores
+base_prisma=int(input("mostrar la base del prisma:"))
+altura_prisma=int(input("mostrar la altura del prisma:"))
+#calculo
+volumen_prisma=base_prisma*altura_prisma
+verificador=(volumen_prisma<=58)
+#mostrar valores
+print("base del prisma:",base_prisma)
+print("altura del prisma:",altura_prisma)
+print("volumen del prisma:",volumen_prisma)
+print("volumen del prisma<=58",verificador)
+
+
+#verificador 9: calcular el trabajo
+trabajo, fuerza, distancia=0.0, 0.0, 0.0
+#asignacion de valores
+fuerza=int(input("mostrar la fueza:"))
+distancia=int(input("mostrar la distancia:"))
+#calculo
+trabajo=fuerza*distancia
+verificador=(trabajo==79)
+#mortrar valores
+print("fuerza:",fuerza)
+print("distancia:",distancia)
+print("trabajo:",trabajo)
+print("trabajo==79",verificador)
+
+#verificador 10: calcular la energia potencial gravitatoria
+eneria_ptencial_gravitatoria, masa1, gravedad, altura1=0.0, 0.0, 0.0, 0.0
+#asignacion valores
+masa=int(input("mostrar masa:"))
+gravedad=int(input("mostrar gravedad:"))
+altura=int(input("mostrar altura:"))
+#calculo
+energia_potencial_gravitatoria=(masa*gravedad*altura)
+verificador=(eneria_ptencial_gravitatoria==64)
+#mostrar valores
+print("masa:",masa)
+print("gravedad:",gravedad)
+print("altura:",altura)
+print("energia ptencial gravitatoria:",energia_potencial_gravitatoria)
+print("energia potencial gravitatoria==64:",verificador)
+
+
+#verificador 11: calcular la potencia
+potencia, trabajo1, tiempo=0.0, 0.0, 0.0
+#asignacion de valores
+trabajo1=int(input("mostrar el trabajo:"))
+tiempo=int(input("mostrar el tiempo:"))
+#calculo
+potencia=trabajo1/tiempo
+verificador=(potencia>=17)
+#mostrar valores
+print("trabajo1:",trabajo1)
+print("tiempo:",tiempo)
+print("potencia:",potencia)
+print("potencia>=17",verificador)
+
+
+#verificador 12: calcular la fuerza
+fuerza, masa, aceleracion=0.0, 0.0, 0.0
+#asigancion de valores
+masa=int(input("mostrar masa:"))
+aceleracion=int(input("mostrar la aceleracion:"))
+#calculo
+fuerza=(masa * aceleracion)
+verificador=(fuerza!=55)
+#mostrar valores
+print("masa:",masa)
+print("aceleracion:",aceleracion)
+print("fuerza:",fuerza)
+print("fuerza!=55:",verificador)
+
+
+#verificador 13: calcular la eficiencia
+eficiencia, trabajo_util, trabajo_suministrado=0.0, 0.0, 0.0
+#asigancion de valores
+trabajo_util=int(input("mostrar el trabajo util:"))
+trabajo_suministrado=int(input("mostrar el trabao suministrado:"))
+#calculo
+eficiencia=trabajo_util/trabajo_suministrado
+verificador=(eficiencia>47)
+#mostrar valores
+print("trabajo util:",trabajo_util)
+print("trabajo suministrado:",trabajo_suministrado)
+print("eficiencia:",eficiencia)
+print("eficiencia>47:",verificador)
+
+
+#verificador 14: calcular la rapidez media
+rapidez_media, distancia_recorrida, tiempo_transcurrido=0.0, 0.0, 0.0
+#asigancion de valores
+distancia_recorrida=int(input("mostrar distancia recorrida:"))
+tiempo_transcurrido=int(input("mostrar el tiempo transcurrido:"))
+#calculo
+rapidez_media=distancia_recorrida/tiempo_transcurrido
+verificador=(rapidez_media==31)
+#mostrar valores
+print("distancia recorrida:",distancia_recorrida)
+print("tiempo transcurrido:",tiempo_transcurrido)
+print("rapidez media:",rapidez_media)
+print("rapidez media==31",verificador)
+
+
+#verificador 15: calcular la direccion
+direccion, velocidad, rapidez=0.0, 0.0, 0.0
+#asigancion de valores
+velocidad=int(input("mostrar la velocidad:"))
+rapidez=int(input("mostrar la rapidez:"))
+#calculo
+direccion=velocidad-rapidez
+verificador=(direccion<=29)
+#mostrar valores
+print("velocidad:",velocidad)
+print("rapidez:",rapidez)
+print("direcion:",direccion)
+print("direccion<=29",verificador)
+
+
+#verificador 16: calcular el tiempo de enuentro
+tiempo_encuentro, distancia, velocidad1, velocidad2=0.0, 0.0, 0.0, 0.0
+#asigancion de valores
+distancia=int(input("mostrar distanccia:"))
+velocidad1=int(input("mostrar velocidad:"))
+velocidad2=int(input("mostrar velocidad 2"))
+#calculo
+tiempo_encuentro=(distancia)/(velocidad1 + velocidad2)
+verificador=(tiempo_encuentro<=30)
+#mostrar valores
+print("distancia:",distancia)
+print("velocidad:",velocidad1)
+print("velocidad:",velocidad2)
+print("tiempo de encuentro:",tiempo_encuentro)
+print("tiempo de encuentro<=30",verificador)
+
+
+#verificador 17: calcular tiempo de alcance
+tiempo_alcance, distancia, velocidad_1, velocidad2=0.0, 0.0, 0.0, 0.0
+#asigancion de valores
+distancia=int(input("mostrar distancia:"))
+velocidad1=int(input("mostrar velocida1:"))
+velocidad2=int(input("mostara velocidad2:"))
+#calculo
+tiempo_alcance=(distancia)/(velocidad1 - velocidad2)
+verificador=(tiempo_alcance==90)
+#mostrar valores
+print("distancia :",distancia)
+print("velocidad 1:",velocidad1)
+print("velocidad 2:",velocidad2)
+print("tiempo alcance:",tiempo_alcance)
+print("tiempo de alcance==90",verificador)
+
+
+#verificador 18: calcular la calga de un cuerpo
+carga_del_cuerpo, carga_del_electron, numero_entero=0.0, 0.0, 0.0
+#asigancion de valores
+carga_del_electron=int(input("mostrar carga del electron:"))
+numero_entero=int(input("mostrar numero entero:"))
+#calculo
+carga_del_cuerpo=numero_entero*carga_del_electron
+verificador=(carga_del_cuerpo>13)
+#mostrar valores
+print("carga del electron:",carga_del_electron)
+print("numero entero:",numero_entero)
+print("carga del cuerpo:",carga_del_cuerpo)
+print("carga del cuerpo>13:",verificador)
+
+
+#verificador 19: calcular la energia cinematica
+energia_cinematica, masa, velocida=0.0, 0.0, 0.0,
+#asigancion de valores
+masa=int(input("mostrar la masa:"))
+velocidad=int(input("mostrar la velocidad"))
+#calculo
+energia_cinematica=1/2*masa*velocidad**2
+verificador=(energia_cinematica<38)
+#mostrar valores
+print("masa:",masa)
+print("velocidad:",velocidad)
+print("energia cinematica:",energia_cinematica)
+print("energia cinematica<38",verificador)
+
+
+#verificador 20: calcular la presion hidrostatica
+presion_hidrostatica, densidad, gravedad, altura=0.0, 0.0, 0.0, 0.0
+#asignacion de valores
+densidad=int(input("mostrar densidad:"))
+gravedad=int(input("mostrar la gravedad:"))
+altura=int(input("mostrar la altura:"))
+#calculo
+presion_hidrostatica=densidad*gravedad*altura
+verificador=(presion_hidrostatica>=32)
+#mostrar valores
+print("densidad0:",densidad)
+print("gravedad0:",gravedad)
+print("altura0:",altura)
+print("presion hidrostatica:",presion_hidrostatica)
+print("presion hidrostatica>=32",verificador)
+
+
+
+
 
